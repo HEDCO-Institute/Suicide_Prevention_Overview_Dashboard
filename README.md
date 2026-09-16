@@ -1,6 +1,6 @@
 # Suicide Prevention Overview Dashboard
 
-**Date of Release:** 9/16/2026
+**Date of Release:** 9/16/2026 <br>
 **Title:** Findings From School-Based Suicide Prevention Overview of Reviews <br>
 **Repo Authors:** Shaina Trevino
 
@@ -17,12 +17,13 @@ This repository follows **[AEA Data and Code Availability Standards](https://dat
 
 ### **Data Sources**
 The data used in this dashboard are extracted estimates and GRADE certainty ratings from a set of included systematic reviews on suicide prevention interventions.
-- Metadata (variable names and descriptions) are provided in the `data/SPO_overview_dashboard_codebook.xlsx` file.
+
+Metadata (variable names and descriptions) are provided in the `data/SPO_overview_dashboard_codebook.xlsx` file.
 
 The following datasets used for the dashboard are available in the `data` subfolder:
 
 | Data File | Description | Data Structure | 
-|-----------|-------------|-----------|-----------|
+|-----------|-------------|-----------|
 | `SPO_GRADE_Certainty.xlsx` | Extracted estimates from reviews, GRADE certainty ratings, and narrative interpretations | One row per extracted estimate | 
 | `spo_review_pdf_links.xlsx` | Links from each included review to its source PDF | One row per included review |
 | `SPO_overview_dashboard_codebook.xlsx` | Descriptions for variables in data files | One tab per data file, One row per variable |
