@@ -704,7 +704,7 @@ app_css <- glue(
 
     .app-title { font-size: 20px; font-weight: 700; margin: 14px 0 4px 0; }
     .app-subtitle { color: {{COLORS$text_light}}; margin-bottom: 16px; }
-    .app-shared-note { font-size: 12px; color: #6c757d; margin: -8px 0 16px 0; }
+    .app-shared-note { font-size: 14px; font-weight: 700; color: {{COLORS$text_muted}}; margin: -8px 0 16px 0; }
 
     .legend-box {
       border: 1px solid #e9ecef; border-radius: 8px; padding: 14px 16px;
@@ -817,7 +817,7 @@ ui <- fluidPage(
     tags$div(class = "tooltip-hint", "Click within the cell for more details")
   ),
   div(class = "app-title", "Suicide Prevention: Overview of Reviews"),
-  div(class = "app-subtitle", "Intervention benefits/harms by outcome domain, with GRADE certainty of evidence."),
+  div(class = "app-subtitle", "Explore intervention effects overall (Tab 1), and how they vary across groupd (Tab 2), alongside GRADE certainty of evidence ratings. "),
   div(class = "app-shared-note", "Hover a cell for a quick summary; click for full details."),
   tabsetPanel(
     tabPanel(
